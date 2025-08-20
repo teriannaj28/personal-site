@@ -1,0 +1,23 @@
+body {
+    background-color: #F3E2D4;
+}
+
+h2, h3 {
+    color: #17313E;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+ p,ul {
+    color: #415E72;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+ }

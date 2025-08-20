@@ -1,0 +1,49 @@
+body {
+    background-color: #F3E2D4;
+}
+
+.name, h2 {
+    color: #17313E;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+#description p, p {
+    color: #415E72;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+#description a {
+    color: #415E72;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hobbies h2 {
+    text-align: center;
+}
+
+#hobbies .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#hobbies .container img {
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 60px;
+    height: 80px;
+}
